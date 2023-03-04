@@ -1,22 +1,34 @@
 <script setup>
 import quiz from "./data/quizData.json";
-import { ref } from "vue";
+import { ref, watch } from "vue";
 
-const quizes = ref(quiz);
+const quizzes = ref(quiz);
+const search = ref("");
+
+watch(search, () => {
+  quizzes.value = quiz.filter((element) =>
+    element.name.toLocaleLowerCase().includes(search.value.toLocaleLowerCase())
+  );
+});
 </script>
 
 <template>
   <div class="container">
     <header>
       <h1>Quizzes</h1>
-      <input type="text" />
+      <input type="text" v-model.trim="search" placeholder="Search Here" />
     </header>
     <div class="options-container">
-      <div v-for="subject in quizes" :key="subject.id" class="card">
-        <img :src="subject.img" :alt="`${subject.name} image`" />
-        <div class="card-text">
-          <h2>{{ subject.name }}</h2>
-          <p>{{ subject.questions.length }} Questions</p>
+      <div v-show="!quizzes.length">
+        <h2>Subject not available</h2>
+      </div>
+      <div v-for="subject in quizzes" :key="subject.id" class="card">
+        <div>
+          <img :src="subject.img" :alt="`${subject.name} image`" />
+          <div class="card-text">
+            <h2>{{ subject.name }}</h2>
+            <p>{{ subject.questions.length }} Questions</p>
+          </div>
         </div>
       </div>
     </div>
@@ -24,9 +36,9 @@ const quizes = ref(quiz);
 </template>
 
 <style scoped>
-* {
+/* * {
   outline: 1px solid lime;
-}
+} */
 .container {
   max-width: 1080px;
   margin: 0 auto;
@@ -35,6 +47,7 @@ const quizes = ref(quiz);
 .options-container {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
 header {
   margin-bottom: 10px;
