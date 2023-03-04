@@ -21,7 +21,10 @@ watch(search, () => {
       <input type="text" v-model.trim="search" placeholder="Search Here" />
     </header>
     <div class="options-container">
-      <NotFound v-show="!quizzes.length" />
+      <NotFound
+        :msg="'Item not found! Please try using different keywords.'"
+        v-show="!quizzes.length"
+      />
       <Card v-for="subject in quizzes" :key="subject.id" :subject="subject" />
     </div>
   </div>

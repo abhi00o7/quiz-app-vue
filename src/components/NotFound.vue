@@ -1,5 +1,11 @@
+<script setup>
+import { defineProps } from "vue";
+
+const { msg } = defineProps(["msg"]);
+</script>
+
 <template>
   <div>
-    <h2>Item not found! Please try using different keywords.</h2>
+    <h2>{{ msg }}</h2>
   </div>
 </template>
