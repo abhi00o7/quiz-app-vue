@@ -2,6 +2,7 @@
 import quiz from "./data/quizData.json";
 import { ref, watch } from "vue";
 import Card from "./components/Card.vue";
+import NotFound from "./components/NotFound.vue";
 
 const quizzes = ref(quiz);
 const search = ref("");
@@ -20,6 +21,7 @@ watch(search, () => {
       <input type="text" v-model.trim="search" placeholder="Search Here" />
     </header>
     <div class="options-container">
+      <NotFound v-show="!quizzes.length" />
       <Card v-for="subject in quizzes" :key="subject.id" :subject="subject" />
     </div>
   </div>

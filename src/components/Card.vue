@@ -1,14 +1,12 @@
 <script setup>
 import { defineProps } from "vue";
 
-// const subject  = defineProps("quizzes");
 const { subject } = defineProps(["subject"]);
 </script>
 
 <template>
   <div class="card">
     <div>
-      <!-- {{ subject }} -->
       <img :src="subject.img" :alt="`${subject.name} image`" />
       <div class="card-text">
         <h2>{{ subject.name }}</h2>
