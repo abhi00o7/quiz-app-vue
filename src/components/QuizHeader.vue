@@ -1,6 +1,10 @@
+<script setup>
+const { questionStatus } = defineProps(["questionStatus"]);
+</script>
+
 <template>
   <header>
-    <h3>Questions 1/3</h3>
+    <h3>Questions: {{ questionStatus }}</h3>
     <div class="bar">
       <div class="completion"></div>
     </div>
