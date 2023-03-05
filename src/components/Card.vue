@@ -1,11 +1,17 @@
 <script setup>
-import { defineProps } from "vue";
+import { useRouter } from "vue-router";
 
+// importing props for component
 const { subject } = defineProps(["subject"]);
+const router = useRouter();
+
+const navigateToSubject = () => {
+  router.push(`/subject/${subject.name.toLocaleLowerCase()}/${subject.id}`);
+};
 </script>
 
 <template>
-  <div class="card">
+  <div class="card" @click="navigateToSubject">
     <div>
       <img :src="subject.img" :alt="`${subject.name} image`" />
       <div class="card-text">
