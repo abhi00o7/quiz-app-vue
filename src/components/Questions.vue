@@ -1,4 +1,6 @@
 <script setup>
+import { RouterLink } from "vue-router";
+
 const { question } = defineProps(["question"]);
 const emit = defineEmits(["selectOption"]);
 const emitSelectedOption = (isCorrect) => {
@@ -24,6 +26,7 @@ const emitSelectedOption = (isCorrect) => {
         </div>
       </div>
     </div>
+    <RouterLink class="next-button" to="/">Take another quiz</RouterLink>
   </div>
 </template>
 
