@@ -9,7 +9,7 @@ const search = ref("");
 
 watch(search, () => {
   quizzes.value = quiz.filter((element) =>
-    element.name.toLocaleLowerCase().includes(search.value.toLocaleLowerCase())
+    element.name.toLowerCase().includes(search.value.toLowerCase())
   );
 });
 </script>

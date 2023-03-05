@@ -6,7 +6,7 @@ const { subject } = defineProps(["subject"]);
 const router = useRouter();
 
 const navigateToSubject = () => {
-  router.push(`/subject/${subject.name.toLocaleLowerCase()}/${subject.id}`);
+  router.push(`/questions/${subject.name.toLowerCase()}/${subject.id}`);
 };
 </script>
 
