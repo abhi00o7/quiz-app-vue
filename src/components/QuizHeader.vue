@@ -1,12 +1,15 @@
 <script setup>
-const { questionStatus } = defineProps(["questionStatus"]);
+const { questionStatus, barPercentage } = defineProps([
+  "questionStatus",
+  "barPercentage",
+]);
 </script>
 
 <template>
   <header>
-    <h3>Questions: {{ questionStatus }}</h3>
+    <h3>Questions: {{ questionStatus }} </h3>
     <div class="bar">
-      <div class="completion"></div>
+      <div class="completion" :style="{width: barPercentage}"></div>
     </div>
   </header>
 </template>
@@ -23,11 +26,11 @@ header h3 {
   width: 300px;
   height: 50px;
   bottom: 3px solid hsl(56, 10%, 73%);
+  outline: 1px solid #d8c6cf  ;
 }
 
 .completion {
   height: 100%;
-  width: 100%;
   background-color: #d8c6cf;
 }
 </style>
