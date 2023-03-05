@@ -4,21 +4,32 @@ import Questions from "../components/Questions.vue";
 import { useRoute } from "vue-router";
 import { ref, computed } from "vue";
 import quiz from "../data/quizData.json";
+import Results from "../components/Results.vue";
 
 const route = useRoute();
 const subjectId = parseInt(route.params.id);
 const subjectData = quiz.find((q) => q.id === subjectId);
 const currentQuestionIndex = ref(0);
+const noOfCorrectAnswers = ref(0);
+const showResults = ref(false);
+const totalQuestions = subjectData?.questions?.length;
 
 const questionStatus = computed(
-  () => `${currentQuestionIndex.value}/${subjectData?.questions?.length}`
+  () => `${currentQuestionIndex.value}/${totalQuestions}`
 );
 const barPercentage = computed(
-  () =>
-    `${Math.round(
-      (currentQuestionIndex.value / subjectData?.questions?.length) * 100
-    )}%`
+  () => `${Math.round((currentQuestionIndex.value / totalQuestions) * 100)}%`
 );
+
+const onOptionSelected = (isCorrect) => {
+  if (isCorrect) {
+    noOfCorrectAnswers.value++;
+  }
+  currentQuestionIndex.value++;
+  if (currentQuestionIndex.value === totalQuestions) {
+    showResults.value = true;
+  }
+};
 </script>
 <template>
   <div>
@@ -26,9 +37,18 @@ const barPercentage = computed(
       :questionStatus="questionStatus"
       :barPercentage="barPercentage"
     />
-    <div>
-      <Questions :question="subjectData?.questions[currentQuestionIndex]" />
+    <div v-if="!showResults">
+      <Questions
+        @selectOption="onOptionSelected"
+        :question="subjectData?.questions[currentQuestionIndex]"
+      />
     </div>
-    <button @click="currentQuestionIndex++">Next Question</button>
+
+    <div v-else>
+      <Results
+        :totalQuestions="totalQuestions"
+        :correctAnswers="noOfCorrectAnswers"
+      />
+    </div>
   </div>
 </template>
