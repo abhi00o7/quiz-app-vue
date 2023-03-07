@@ -13,8 +13,9 @@ const year = new Date().getFullYear();
 
 <style scoped>
 .footer {
-  /* position: absolute; */
-  /* bottom: 0; */
+  position: fixed;
+  margin-bottom: 0;
+  bottom: 0;
   left: 0;
   right: 0;
   padding: 2rem;
@@ -25,4 +26,11 @@ const year = new Date().getFullYear();
   align-items: center;
   gap: 0.2rem;
 }
+
+@media screen and (min-width: 30px) and (orientation: portrait) {
+  .footer {
+    position: sticky;
+  }
+}
+
 </style>
