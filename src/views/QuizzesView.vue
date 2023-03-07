@@ -84,5 +84,12 @@ header input {
   padding: 10px;
   border-radius: 5px;
 }
+@media screen and (min-width: 30px) and (orientation: portrait) {
+  .options-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
 
 </style>
