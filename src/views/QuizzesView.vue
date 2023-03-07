@@ -75,6 +75,7 @@ header {
 header h1 {
   font-weight: bold;
   margin-right: 30px;
+  padding-left: 1rem;
 }
 
 header input {

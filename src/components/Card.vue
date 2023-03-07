@@ -6,7 +6,7 @@ const { subject } = defineProps(["subject"]);
 const router = useRouter();
 
 const navigateToSubject = () => {
-  router.push(`/questions/${subject.name.toLowerCase()}/${subject.id}`);
+  router.push(`/questions/${subject?.name?.toLowerCase()}/${subject.id}`);
 };
 </script>
 
@@ -16,7 +16,7 @@ const navigateToSubject = () => {
       <img :src="subject.img" :alt="`${subject.name} image`" />
       <div class="card-text">
         <h2>{{ subject.name }}</h2>
-        <p>{{ subject.questions.length }} Questions</p>
+        <p>{{ subject?.questions?.length }} Questions</p>
       </div>
     </div>
   </div>
@@ -26,6 +26,7 @@ const navigateToSubject = () => {
 /* card */
 
 .card {
+  padding-top: 2.5rem;
   width: 310px;
   overflow: hidden;
   border-radius: 2%;
@@ -44,5 +45,11 @@ const navigateToSubject = () => {
 
 .card .card-text {
   padding: 0 5px;
+}
+
+@media screen and (min-width: 30px) and (orientation: portrait) {
+  .card {
+  padding-top: 1rem;
+  }
 }
 </style>
