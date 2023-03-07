@@ -47,9 +47,9 @@ const navigateToSubject = () => {
   padding: 0 5px;
 }
 
-@media screen and (min-width: 30px) and (orientation: portrait) {
+@media screen and (min-width: 30em) and (orientation: portrait) {
   .card {
-  padding-top: 1rem;
+  padding-top: rem;
   }
 }
 </style>

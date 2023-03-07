@@ -1,5 +1,6 @@
 <script setup>
 import { RouterLink } from "vue-router";
+import Footer from "../components/Footer.vue";
 
 const { question } = defineProps(["question"]);
 const emit = defineEmits(["selectOption"]);
@@ -28,6 +29,7 @@ const emitSelectedOption = (isCorrect) => {
     </div>
     <RouterLink class="next-button" to="/">Take another quiz</RouterLink>
   </div>
+  <Footer />
 </template>
 
 <style scoped>
@@ -62,4 +64,7 @@ const emitSelectedOption = (isCorrect) => {
   font-size: 1.8rem;
   padding: 0px 20px;
 }
+ .footer{
+    position: fixed;
+  }
 </style>
