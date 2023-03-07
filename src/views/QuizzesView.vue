@@ -3,6 +3,7 @@ import quiz from "../data/quizData.json";
 import { ref, watch } from "vue";
 import Card from "../components/Card.vue";
 import NotFound from "../components/NotFound.vue";
+import Footer from "../components/Footer.vue";
 import gsap from "gsap";
 
 const quizzes = ref(quiz);
@@ -45,7 +46,6 @@ const enter = (el) => {
       name="card"
       @before-enter="beforeEnter"
       @enter="enter"
-      @after-enter="afterEnter"
       appear
     >
       <Card
@@ -56,6 +56,7 @@ const enter = (el) => {
       />
     </TransitionGroup>
   </div>
+  <Footer />
 </template>
 
 <style scoped>
@@ -84,15 +85,4 @@ header input {
   border-radius: 5px;
 }
 
-.card-enter-from {
-  transform: translateY(-50px);
-  opacity: 0;
-}
-.card-enter-to {
-  transform: translateY(0);
-  opacity: 1;
-}
-.card-enter-active {
-  transition: all 0.5s ease;
-}
 </style>
