@@ -1,9 +1,5 @@
 @import "./base.css";
 
-/* * {
-  outline: 1px solid lime;
-} */
-
 .next-button {
   appearance: none;
   background-color: transparent;
