@@ -27,13 +27,20 @@ const emitSelectedOption = (isCorrect) => {
         </div>
       </div>
     </div>
-    <RouterLink class="next-button" to="/">Take another quiz</RouterLink>
+    <div class="btn-wrapper">
+      <RouterLink class="next-button " to="/">Take another quiz</RouterLink>
+    </div>
   </div>
   <Footer />
 </template>
 
 <style scoped>
 /* Questions */
+.btn-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .questions-container {
   margin-top: 35px;
 }
@@ -64,7 +71,7 @@ const emitSelectedOption = (isCorrect) => {
   font-size: 1.8rem;
   padding: 0px 20px;
 }
- .footer{
-    position: fixed;
-  }
+.footer {
+  position: fixed;
+}
 </style>
