@@ -103,92 +103,112 @@
     "questions": [
       {
         "id": 1,
-        "text": "The Kreb Cycles occurs in the",
+        "text": "Q1.The landscape changed ABRUPTLY after the snowfall.",
         "options": [
-          {
-            "id": 1,
-            "label": "A",
-            "text": "Mitochondria",
-            "isCorrect": true
-          },
-          {
-            "id": 2,
-            "label": "B",
-            "text": "Nucleus",
-            "isCorrect": false
-          },
-          {
-            "id": 3,
-            "label": "C",
-            "text": "Rough ER",
-            "isCorrect": false
-          },
-          {
-            "id": 4,
-            "label": "D",
-            "text": "Cystol",
-            "isCorrect": false
-          }
+          { "id": 1, "label": "A", "text": "Suddenly", "isCorrect": true },
+          { "id": 2, "label": "B", "text": "Sharply", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "Favorably", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Slightly", "isCorrect": false }
         ]
       },
       {
         "id": 2,
-        "text": "How many oxygen molecules can hemoglobin hold",
+        "text": "Q2.There was a signpost where the two paths CONVERGE.",
         "options": [
-          {
-            "id": 1,
-            "label": "A",
-            "text": "1",
-            "isCorrect": false
-          },
-          {
-            "id": 2,
-            "label": "B",
-            "text": "2",
-            "isCorrect": false
-          },
-          {
-            "id": 3,
-            "label": "C",
-            "text": "3",
-            "isCorrect": false
-          },
-          {
-            "id": 4,
-            "label": "D",
-            "text": "4",
-            "isCorrect": true
-          }
+          { "id": 1, "label": "A", "text": "Separate", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "Intersect", "isCorrect": true },
+          { "id": 3, "label": "C", "text": "Merge", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Diverge", "isCorrect": false }
         ]
       },
       {
         "id": 3,
-        "text": "The cones see ___ while the rods see ___",
+        "text": "Q3.A series of COLUMNS supporting a large porch is typical of medieval architecture.",
         "options": [
-          {
-            "id": 1,
-            "label": "A",
-            "text": "black and white; color",
-            "isCorrect": false
-          },
+          { "id": 1, "label": "A", "text": "Statues", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "Arches", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "Pillars", "isCorrect": true },
+          { "id": 4, "label": "D", "text": "Murals", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Q4.The violence erupted because of the ZEALOT.",
+        "options": [
+          { "id": 1, "label": "A", "text": "enthusiastic", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "brave", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "timid", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "fanatic", "isCorrect": true }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Q5.We saw a SCINTILLATING fireworks display.",
+        "options": [
+          { "id": 1, "label": "A", "text": "Fascinating", "isCorrect": false },
           {
             "id": 2,
             "label": "B",
-            "text": "color; black and white",
+            "text": "Unforgettable",
+            "isCorrect": false
+          },
+          { "id": 3, "label": "C", "text": "Beautiful", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Sparkling", "isCorrect": true }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Q6.A wise man puts past RANCOR behind the moves ahead.",
+        "options": [
+          { "id": 1, "label": "A", "text": "Dislike", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "Hatred", "isCorrect": true },
+          { "id": 3, "label": "C", "text": "Division", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Criticism", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Q7.The PACT has been in effect for twenty years.",
+        "options": [
+          { "id": 1, "label": "A", "text": "Treaty", "isCorrect": true },
+          { "id": 2, "label": "B", "text": "Monarchy", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "Lease", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Trend", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Q8.He had a reputation of being a PRUDENT businessman.",
+        "options": [
+          { "id": 1, "label": "A", "text": "Skillful", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "Wealthy", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "Careful", "isCorrect": true },
+          { "id": 4, "label": "D", "text": "Dishonest", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Q9.Many of the villagers were ISOLATED by heavy showers of rain.",
+        "options": [
+          { "id": 1, "label": "A", "text": "Destroyed", "isCorrect": false },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Separated from others",
             "isCorrect": true
           },
-          {
-            "id": 3,
-            "label": "C",
-            "text": "3D objects; 2D shapes",
-            "isCorrect": false
-          },
-          {
-            "id": 4,
-            "label": "D",
-            "text": "2D shapes; 3D objects",
-            "isCorrect": false
-          }
+          { "id": 3, "label": "C", "text": "Battered", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Devastated", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Q10.Trees that BLOCK the view of oncoming traffic should be cut down.",
+        "options": [
+          { "id": 1, "label": "A", "text": "Alter", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "Obstruct", "isCorrect": true },
+          { "id": 3, "label": "C", "text": "Improve", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Spoil", "isCorrect": false }
         ]
       }
     ]
@@ -200,92 +220,107 @@
     "questions": [
       {
         "id": 1,
-        "text": "What is the composition of table salt",
+        "text": "Q 1. He drove his car through SLIMY road to reach your office.",
         "options": [
-          {
-            "id": 1,
-            "label": "A",
-            "text": "NaCl",
-            "isCorrect": true
-          },
-          {
-            "id": 2,
-            "label": "B",
-            "text": "K2",
-            "isCorrect": false
-          },
-          {
-            "id": 3,
-            "label": "C",
-            "text": "NaCl2C4H7",
-            "isCorrect": false
-          },
-          {
-            "id": 4,
-            "label": "D",
-            "text": "CH4",
-            "isCorrect": false
-          }
+          { "id": 1, "label": "A", "text": "Ugly", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "Clean", "isCorrect": true },
+          { "id": 3, "label": "C", "text": "Beautiful", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Slippery", "isCorrect": false }
         ]
       },
       {
         "id": 2,
-        "text": "What is Potassium's chemical symbol",
+        "text": "Q2.His family SERVED ties with him for marrying inter-caste.",
         "options": [
-          {
-            "id": 1,
-            "label": "A",
-            "text": "P",
-            "isCorrect": false
-          },
-          {
-            "id": 2,
-            "label": "B",
-            "text": "Pt",
-            "isCorrect": false
-          },
-          {
-            "id": 3,
-            "label": "C",
-            "text": "Pts",
-            "isCorrect": false
-          },
-          {
-            "id": 4,
-            "label": "D",
-            "text": "K",
-            "isCorrect": true
-          }
+          { "id": 1, "label": "A", "text": "Joined", "isCorrect": true },
+          { "id": 2, "label": "B", "text": "Included", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "Detached", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Disrupted", "isCorrect": false }
         ]
       },
       {
         "id": 3,
-        "text": "Which is not organinc",
+        "text": "Q3.Domestic violence is very INHUMAN act.",
         "options": [
-          {
-            "id": 1,
-            "label": "A",
-            "text": "CH4",
-            "isCorrect": false
-          },
-          {
-            "id": 2,
-            "label": "B",
-            "text": "NaCl",
-            "isCorrect": true
-          },
-          {
-            "id": 3,
-            "label": "C",
-            "text": "C2H6",
-            "isCorrect": false
-          },
+          { "id": 1, "label": "A", "text": "Indifferent", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "Compassionate", "isCorrect": true },
+          { "id": 3, "label": "C", "text": "Terrible", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Terrifing", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Q4.His CANDID remarks impressed the authorities.",
+        "options": [
+          { "id": 1, "label": "A", "text": "Blunt", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "Guarded", "isCorrect": true },
+          { "id": 3, "label": "C", "text": "Sincere", "isCorrect": false },
           {
             "id": 4,
             "label": "D",
-            "text": "C3H8",
+            "text": "Unconventional",
             "isCorrect": false
           }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Q5.It is easy to understand his FUZZY thoughts.",
+        "options": [
+          { "id": 1, "label": "A", "text": "Misty", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "vague", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "clear", "isCorrect": true },
+          { "id": 4, "label": "D", "text": "useful", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Q6.The guilty appealed to the jury to CONDONE his punishment.",
+        "options": [
+          { "id": 1, "label": "A", "text": "Accept", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "forgive", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "condemn", "isCorrect": true },
+          { "id": 4, "label": "D", "text": "Criticize", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Q7.There was fire this morning. They were lucky to ESCAPE it",
+        "options": [
+          { "id": 1, "label": "A", "text": "Arrest", "isCorrect": true },
+          { "id": 2, "label": "B", "text": "Elude", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "Evade", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Conceive", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Q8.His ELOQUENT speech helped him bag the award.",
+        "options": [
+          { "id": 1, "label": "A", "text": "Lucid", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "Vivid", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "Short", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Inarticulate", "isCorrect": true }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Q9.We are ANXIOUS to avoid the problem with regard to this.",
+        "options": [
+          { "id": 1, "label": "A", "text": "Cool", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "composed", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "careless", "isCorrect": true },
+          { "id": 4, "label": "D", "text": "worried", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Q10.The railway lines are EXTENDED and we are quite happy about it.",
+        "options": [
+          { "id": 1, "label": "A", "text": "Protracted", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "Widened", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "Curtailed", "isCorrect": true },
+          { "id": 4, "label": "D", "text": "Elongated", "isCorrect": false }
         ]
       }
     ]
@@ -297,92 +332,242 @@
     "questions": [
       {
         "id": 1,
-        "text": "What is the composition of table salt",
+        "text": "Q 1.Order has been issued (a)/ for his transfer to another district (b)/ but he has not received them so far. (c)/ No error (d)",
         "options": [
           {
             "id": 1,
             "label": "A",
-            "text": "NaCl",
+            "text": "Order has been issued",
             "isCorrect": true
           },
           {
             "id": 2,
             "label": "B",
-            "text": "K2",
+            "text": "for his transfer to another district",
             "isCorrect": false
           },
           {
             "id": 3,
             "label": "C",
-            "text": "NaCl2C4H7",
+            "text": "but he has not received them so far",
             "isCorrect": false
           },
-          {
-            "id": 4,
-            "label": "D",
-            "text": "CH4",
-            "isCorrect": false
-          }
+          { "id": 4, "label": "D", "text": "No error", "isCorrect": false }
         ]
       },
       {
         "id": 2,
-        "text": "What is Potassium's chemical symbol",
+        "text": "Q 2.There are two scores of books (a)/ which are lying (b)/ unused in the library. (c)/ No error (d)",
         "options": [
           {
             "id": 1,
             "label": "A",
-            "text": "P",
-            "isCorrect": false
+            "text": "There are two scores of books",
+            "isCorrect": true
           },
           {
             "id": 2,
             "label": "B",
-            "text": "Pt",
+            "text": "which are lying",
             "isCorrect": false
           },
           {
             "id": 3,
             "label": "C",
-            "text": "Pts",
+            "text": "unused in the library",
             "isCorrect": false
           },
-          {
-            "id": 4,
-            "label": "D",
-            "text": "K",
-            "isCorrect": true
-          }
+          { "id": 4, "label": "D", "text": "No error", "isCorrect": false }
         ]
       },
       {
         "id": 3,
-        "text": "Which is not organinc",
+        "text": "Q 3.Sheeps are economically useful (a)/ and so they are reared (b)/ in the hills. (c)/ No error (d)",
         "options": [
           {
             "id": 1,
             "label": "A",
-            "text": "CH4",
+            "text": "Sheeps are economically useful",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "and so they are reared",
+            "isCorrect": false
+          },
+          { "id": 3, "label": "C", "text": "in the hills", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "No error", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Q 4.I shall not attend the meeting (a)/ since I have many works to complete (b)/ within allotted time. (c)/ No error (d)",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "I shall not attend the meeting",
             "isCorrect": false
           },
           {
             "id": 2,
             "label": "B",
-            "text": "NaCl",
+            "text": "since I have many works to complete",
             "isCorrect": true
           },
           {
             "id": 3,
             "label": "C",
-            "text": "C2H6",
+            "text": "within allotted time.",
+            "isCorrect": false
+          },
+          { "id": 4, "label": "D", "text": "No error", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Q 5.It is a pity (a)/ that even five years old boys (b)/ are engaged in hazardous factories. (c)/ No error (d)",
+        "options": [
+          { "id": 1, "label": "A", "text": "It is a pity", "isCorrect": false },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "that even five years old boys",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "are engaged in hazardous factories.",
+            "isCorrect": false
+          },
+          { "id": 4, "label": "D", "text": "No error", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Q 6.It is not my business (a)/ to give an advice to those (b)/ who not sensible enough to deal with their own problems. (c)/ No error (d)",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "It is not my business",
             "isCorrect": false
           },
           {
-            "id": 4,
-            "label": "D",
-            "text": "C3H8",
+            "id": 2,
+            "label": "B",
+            "text": "to give an advice to those",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "who not sensible enough to deal with their own problems",
             "isCorrect": false
-          }
+          },
+          { "id": 4, "label": "D", "text": "No error", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Q 7.She misplaced her spectacle (a)/ is now feeling (b)/ great difficulty in studying. (c)/ No error (d)",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "She misplaced her spectacle",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "is now feeling",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "great difficulty in studying",
+            "isCorrect": false
+          },
+          { "id": 4, "label": "D", "text": "No error", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Q 8.I hope to visit (a)/ my uncle next year (b)/ during summer vacation (c)/ No error (d)",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "I hope to visit",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "my uncle next year",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "during summer vacation",
+            "isCorrect": true
+          },
+          { "id": 4, "label": "D", "text": "No error", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Q 9.The table\u2019s wood (a)/ is infested with mite (b)/ and I am likely to dispose it off. (c)/ No error (d)",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "The table\u2019s wood",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "is infested with mite",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "and I am likely to dispose it off",
+            "isCorrect": false
+          },
+          { "id": 4, "label": "D", "text": "No error", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Q 10.I can\u2019t come to you now (a)/ because a lot of works (b)/ remains to be done. (c)/ No error (d)",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "I can\u2019t come to you now",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "because a lot of works",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "remains to be done",
+            "isCorrect": false
+          },
+          { "id": 4, "label": "D", "text": "No error", "isCorrect": false }
         ]
       }
     ]
