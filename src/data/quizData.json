@@ -98,7 +98,7 @@
   },
   {
     "id": 2,
-    "img": "https://www.computerhope.com/jargon/s/synonym.jpg",
+    "img": "https://contenthub-static.grammarly.com/blog/wp-content/uploads/2022/08/Synonym.jpg",
     "name": "Synonyms",
     "questions": [
       {
@@ -215,7 +215,7 @@
   },
   {
     "id": 3,
-    "img": "https://cdn.slidesharecdn.com/ss_thumbnails/antonyms-1210200927402867-9-thumbnail-4.jpg?cb=1210175875",
+    "img": "https://contenthub-static.grammarly.com/blog/wp-content/uploads/2022/08/bmd-3400.png",
     "name": "Antonyms",
     "questions": [
       {
@@ -327,7 +327,7 @@
   },
   {
     "id": 4,
-    "img": "https://educationkeeda.info/wp-content/uploads/2020/04/Spotting-Error.jpg",
+    "img": "https://2.bp.blogspot.com/-pJ2xSe2k_Y0/WxESZ-RiUpI/AAAAAAAADVI/RkY1uXkztDoZn9hTkvdUwQYhsASbRNMMgCLcBGAs/s1600/maxresdefault.jpg",
     "name": "Spotting Errors",
     "questions": [
       {
@@ -568,6 +568,457 @@
             "isCorrect": false
           },
           { "id": 4, "label": "D", "text": "No error", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "img": "https://static.wixstatic.com/media/e2598f_780fdb38d63441dd9351a0b9202ee1ef~mv2.jpg/v1/fit/w_2500,h_1330,al_c/e2598f_780fdb38d63441dd9351a0b9202ee1ef~mv2.jpg",
+    "name": "Filling in The Blanks",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Q1.The two sisters look so _____ that it is difficult to tell one from the other.",
+        "options": [
+          { "id": 1, "label": "A", "text": "Same", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "Similar", "isCorrect": true },
+          { "id": 3, "label": "C", "text": "Identical", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Alike", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Q2.Since one cannot read every book, one should be content with making a _____ selection.",
+        "options": [
+          { "id": 1, "label": "A", "text": "Normal", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "Standard", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "Sample", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Judicious", "isCorrect": true }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Q3.Success comes to those who are vigilant not to permit _____ from the chosen path.",
+        "options": [
+          { "id": 1, "label": "A", "text": "Diversion", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "Deviation", "isCorrect": true },
+          { "id": 3, "label": "C", "text": "Obstruction", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Alienation", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Q4.His action had _____ pain and suffering on thousands of people.",
+        "options": [
+          { "id": 1, "label": "A", "text": "Deplored", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "Eliminated", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "Affected", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Inflicted", "isCorrect": true }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Q5.He has good _____ over the famous world languages.",
+        "options": [
+          { "id": 1, "label": "A", "text": "Authority", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "Expertise", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "Hold", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Command", "isCorrect": true }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Q6.The lions in the Gir forest are protected as they come under _____ species.",
+        "options": [
+          { "id": 1, "label": "A", "text": "Dangerous", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "Engendered", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "Enamored", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Endangered", "isCorrect": true }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Q7.People who have an _____ reputation are often provided by the rest.",
+        "options": [
+          { "id": 1, "label": "A", "text": "Unsteady", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "Unsavory", "isCorrect": true },
+          { "id": 3, "label": "C", "text": "Unsafe", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Unsatisfied", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Q8.My father was too _____ to push open the heavy door.",
+        "options": [
+          { "id": 1, "label": "A", "text": "Timid", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "Faint", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "Feeble", "isCorrect": true },
+          { "id": 4, "label": "D", "text": "Faltering", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Q9.He does not suffer from any _____ disease at all.",
+        "options": [
+          { "id": 1, "label": "A", "text": "Acute", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "Chronic", "isCorrect": true },
+          { "id": 3, "label": "C", "text": "Temporary", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Irregular", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Q10.We are not sure if their business is strictly _____",
+        "options": [
+          { "id": 1, "label": "A", "text": "Prudent", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "Honest", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "Judicious", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Legitimate", "isCorrect": true }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "img": "https://www.infipark.com/articles/wp-content/uploads/2017/11/SENTENCE-IMPROVEMENT.png",
+    "name": "Sentence Improvement",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Q1.This matter admits of no excuse.",
+        "options": [
+          { "id": 1, "label": "A", "text": "admits to", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "admits from", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "admits", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "no improvement", "isCorrect": true }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Q2.You have come here with a view to insult me.",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "to insulting me",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "of insulting me",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "for insulting me",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "no improvement",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Q3.For all powers of reason and understanding, we know a little about life\u2019s secrets.",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "a little of love secrets",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "little about life\u2019s secrets",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "nothing about life\u2019s secrets",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "no improvement",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Q4.Not a word they spoke to the unfortunate wife about it.",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "did they speak",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "they will speak",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "they had spoken",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "no improvement",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Q5.More than one person was killed in accident.",
+        "options": [
+          { "id": 1, "label": "A", "text": "were killed", "isCorrect": true },
+          { "id": 2, "label": "B", "text": "are killed", "isCorrect": false },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "have been killed",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "no improvement",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Q6.If he had time, he will call you.",
+        "options": [
+          { "id": 1, "label": "A", "text": "would have", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "would had", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "has", "isCorrect": true },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "no improvement",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Q7.His powerful desire brought about his downfall.",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "his intense desire",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "his desire for power",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "his fatal desire",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "no improvement",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Q8.All, but her, had made an attempt.",
+        "options": [
+          { "id": 1, "label": "A", "text": "all, but she", "isCorrect": true },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "all, but herself",
+            "isCorrect": false
+          },
+          { "id": 3, "label": "C", "text": "all, but her", "isCorrect": false },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "no improvement",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Q9.I hope you vividly remember the premier of the film when I, my wife and you were present in the hall.",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "my wife, I and you",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "you, I and my wife",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "my wife , you and I",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "no improvement",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Q10.With the thundering roar the huge rocket soared up from the launching pad.",
+        "options": [
+          { "id": 1, "label": "A", "text": "flew up", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "went upwards", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "took off", "isCorrect": true },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "no improvement",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "img": "https://english.olympiadsuccess.com/assets/images/english_square/english_topic_64.jpg",
+    "name": "Sequence",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Q1.Little\nP: that he had been let down\nQ: stood by all these years\nR: did he realize\nS: by a colleague whom he had\nThe proper sequence should be",
+        "options": [
+          { "id": 1, "label": "A", "text": "RPSQ", "isCorrect": true },
+          { "id": 2, "label": "B", "text": "RSQP", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "QSRP", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "QSPR", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Q2.Then\nP: it stuck me\nQ: of course\nR: suitable it was\nS: how eminently\nThe proper sequence should be",
+        "options": [
+          { "id": 1, "label": "A", "text": "SPQR", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "QSRP", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "PSRQ", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "QPSR", "isCorrect": true }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Q3.There was\nP: needed for it\u2019s everyday life\nQ: a time when each family\nR: for itself most of the things it\nS: actually produce\nThe proper sequence should be",
+        "options": [
+          { "id": 1, "label": "A", "text": "QRSP", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "RQPS", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "RSPQ", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "QSRP", "isCorrect": true }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Q4.The grocer\nP: did not listen to the protest of customers\nQ: who was in the habit of weighting less\nR: whom he had cheated\nS: with great audacity\nThe proper sequence should be",
+        "options": [
+          { "id": 1, "label": "A", "text": "PRSQ", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "QSPR", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "QPRS", "isCorrect": true },
+          { "id": 4, "label": "D", "text": "PQSR", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Q5.Though he dialed frequently\nP: on telephone\nQ: my brother could not contact me\nR: and had left no information\nS: as I had gone out of office\nThe proper sequence should be",
+        "options": [
+          { "id": 1, "label": "A", "text": "QPRS", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "SQRP", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "QPSR", "isCorrect": true },
+          { "id": 4, "label": "D", "text": "SPQR", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Q6.Education is\nP: of the proper sense of responsibility\nQ: the first need\nR: in a citizen\nS: for the development\nThe proper sequence should be",
+        "options": [
+          { "id": 1, "label": "A", "text": "SQPR", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "QSRP", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "QSPR", "isCorrect": true },
+          { "id": 4, "label": "D", "text": "PQRS", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Q7.It was\nP: in keeping with my mood\nQ: a soft summer evening\nR: as I walked sedately\nS: in the direction of new house\nThe proper sequence should be",
+        "options": [
+          { "id": 1, "label": "A", "text": "SRPQ", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "QRPS", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "QPRS", "isCorrect": true },
+          { "id": 4, "label": "D", "text": "SQPR", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Q8.With her body\nP: dragging her unwilling feet\nQ: weak and infirm\nR: double with age\nS: she persisted in her mission\nThe proper sequence should be",
+        "options": [
+          { "id": 1, "label": "A", "text": "PQRS", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "QPRS", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "RQPS", "isCorrect": true },
+          { "id": 4, "label": "D", "text": "SRPQ", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Q9.When he\nP: did not know\nQ: he was nervous and\nR: heard the hue and cry at midnight\nS: what to do\nThe proper sequence should be",
+        "options": [
+          { "id": 1, "label": "A", "text": "RQPS", "isCorrect": true },
+          { "id": 2, "label": "B", "text": "QSPR", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "SQPR", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "PQRS", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Q10.A French woman\nP: committed suicide\nQ: where she had put up\nR: who had come to Kolkata\nS: by jumping from the balcony of the hotel\nThe proper sequence should be",
+        "options": [
+          { "id": 1, "label": "A", "text": "PRQS", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "QSRP", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "RPSQ", "isCorrect": true },
+          { "id": 4, "label": "D", "text": "SRQP", "isCorrect": false }
         ]
       }
     ]
