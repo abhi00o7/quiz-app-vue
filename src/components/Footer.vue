@@ -14,7 +14,7 @@ const year = new Date().getFullYear();
 <style scoped>
 /* footer styles to cover whole screen area */
 .footer {
-  position: fixed;
+  position: static;
   bottom: 0;
   left: 0%;
   width: 100%;
@@ -22,8 +22,8 @@ const year = new Date().getFullYear();
   background-color: transparent;
   color: #fff;
   text-align: center;
-  line-height: 50px;
-  font-size: 1.2rem;
+  line-height: 2rem;
+  font-size: small;
 }
 @media screen and (min-width: 30px) and (orientation: portrait) {
   .footer {
