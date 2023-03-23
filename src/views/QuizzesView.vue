@@ -42,12 +42,7 @@ const enter = (el) => {
       :msg="'Item not found! Please try using different keywords.'"
       v-show="!quizzes.length"
     />
-    <TransitionGroup
-      name="card"
-      @before-enter="beforeEnter"
-      @enter="enter"
-      appear
-    >
+    <TransitionGroup name="card" @before-enter="beforeEnter" @enter="enter" appear>
       <Card
         v-for="(subject, index) in quizzes"
         :key="subject.id"
@@ -64,6 +59,7 @@ const enter = (el) => {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 header {
   margin-bottom: 10px;
@@ -92,5 +88,4 @@ header input {
     justify-content: center;
   }
 }
-
 </style>

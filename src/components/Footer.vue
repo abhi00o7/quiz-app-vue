@@ -12,25 +12,22 @@ const year = new Date().getFullYear();
 </template>
 
 <style scoped>
+/* footer styles to cover whole screen area */
 .footer {
   position: fixed;
-  margin-bottom: 0;
   bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 2rem;
-  color: white;
-  font-weight: 500;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.2rem;
+  left: 0%;
+  width: 100%;
+  height: 50px;
+  background-color: transparent;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  font-size: 1.2rem;
 }
-
 @media screen and (min-width: 30px) and (orientation: portrait) {
   .footer {
     position: sticky;
   }
 }
-
 </style>
