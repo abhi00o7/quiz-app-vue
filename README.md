@@ -31,3 +31,5 @@ npm run dev
 ```sh
 npm run build
 ```
+
+* fork it and start contributing
