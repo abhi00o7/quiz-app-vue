@@ -7,7 +7,13 @@ const { questionStatus, barPercentage } = defineProps([
 
 <template>
   <header>
-    <h3>Questions: {{ questionStatus }}</h3>
+    <h3>
+      {{
+        questionStatus === "Completed"
+          ? `Test Completed`
+          : `Questions: ${questionStatus}`
+      }}
+    </h3>
     <div class="bar">
       <div class="completion" :style="{ width: barPercentage }"></div>
     </div>
