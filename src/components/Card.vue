@@ -5,8 +5,11 @@ import { useRouter } from "vue-router";
 const { subject } = defineProps(["subject"]);
 const router = useRouter();
 
+// regex to remove special characters from subject name and add underscore and make it lowercase
+const subjectName = subject?.name?.replace(/[^a-zA-Z0-9]/g, "_").toLowerCase();
+
 const navigateToSubject = () => {
-  router.push(`/questions/${subject?.name?.toLowerCase()}/${subject.id}`);
+  router.push(`/questions/${subjectName}/${subject.id}`);
 };
 </script>
 
