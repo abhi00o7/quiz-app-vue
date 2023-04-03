@@ -33,7 +33,7 @@ import { RouterLink } from "vue-router";
   border-bottom: 4px solid var(--clr-primary-7);
 }
 .nav-center {
-  max-width: 1170px;
+  max-width:50%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -86,7 +86,7 @@ import { RouterLink } from "vue-router";
 @media screen and (min-width: 992px) {
   .nav-center {
     width: 95vw;
-    max-width: 1170px;
+    max-width: 50%;
   }
   .nav-links li {
     margin-left: 2.5rem;
