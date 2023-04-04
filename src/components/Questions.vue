@@ -1,13 +1,15 @@
 <script setup>
+import { ref } from "vue";
 import { RouterLink } from "vue-router";
 import Footer from "../components/Footer.vue";
 
-const correctOption = ref(false);
-const wrongOption = ref(false);
+const optionSelected = ref(false);
 
 const { question } = defineProps(["question"]);
 const emit = defineEmits(["selectOption"]);
+
 const emitSelectedOption = (isCorrect) => {
+  optionSelected.value = true;
   emit("selectOption", isCorrect);
 };
 </script>
@@ -24,8 +26,23 @@ const emitSelectedOption = (isCorrect) => {
         @click="emitSelectedOption(option.isCorrect)"
         class="option"
       >
-        <p class="option-label">{{ option.label }}</p>
-        <div class="option-value">
+        <p
+          class="option-label"
+          :class="{
+            'option-correct': optionSelected && option.isCorrect,
+            'option-incorrect': optionSelected && !option.isCorrect,
+          }"
+        >
+          {{ option.label }}
+        </p>
+
+        <div
+          class="option-value"
+          :class="{
+            'option-correct': optionSelected && option.isCorrect,
+            'option-incorrect': optionSelected && !option.isCorrect,
+          }"
+        >
           <p>{{ option.text }}</p>
         </div>
       </div>
@@ -61,11 +78,12 @@ const emitSelectedOption = (isCorrect) => {
 
 /* correct option class */
 .option-correct {
-  outline:1rem solid #00ff00;
+/* good lime green outline */
+  outline: 1px solid #00ff00;
 }
 /* wrong option class */
-.option-wrong {
-  outline:1rem solid #ff0000;
+.option-incorrect {
+  outline: 1px dashed #ff0000;
 }
 .option-label {
   overflow: hidden;
