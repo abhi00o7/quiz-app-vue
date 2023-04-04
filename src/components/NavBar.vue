@@ -87,6 +87,7 @@ import { RouterLink } from "vue-router";
   .nav-center {
     width: 95vw;
     max-width: 50%;
+    float: left;
   }
   .nav-links li {
     margin-left: 2.5rem;

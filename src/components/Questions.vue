@@ -2,6 +2,9 @@
 import { RouterLink } from "vue-router";
 import Footer from "../components/Footer.vue";
 
+const correctOption = ref(false);
+const wrongOption = ref(false);
+
 const { question } = defineProps(["question"]);
 const emit = defineEmits(["selectOption"]);
 const emitSelectedOption = (isCorrect) => {
@@ -56,11 +59,19 @@ const emitSelectedOption = (isCorrect) => {
   cursor: pointer;
 }
 
+/* correct option class */
+.option-correct {
+  outline:1rem solid #00ff00;
+}
+/* wrong option class */
+.option-wrong {
+  outline:1rem solid #ff0000;
+}
 .option-label {
   overflow: hidden;
   background-color: #3d3e3cbf;
-  width: 40px;
-  height: 40px;
+  width: 3rem;
+  height: 3rem;
   font-size: 1.8rem;
   display: flex;
   align-items: center;
@@ -69,6 +80,8 @@ const emitSelectedOption = (isCorrect) => {
 .option-value {
   background-color: #292b29b0;
   width: 100%;
+  height: 3rem;
+  overflow: hidden;
   font-size: 1.8rem;
   padding: 0px 20px;
 }
