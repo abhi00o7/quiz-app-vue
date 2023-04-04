@@ -58,16 +58,16 @@ const emitSelectedOption = (isCorrect) => {
 
 .option-label {
   overflow: hidden;
-  background-color: #dad2d015;
+  background-color: #3d3e3cbf;
   width: 40px;
   height: 40px;
-  font-size: 1.9rem;
+  font-size: 1.8rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .option-value {
-  background-color: #301a14b0;
+  background-color: #292b29b0;
   width: 100%;
   font-size: 1.8rem;
   padding: 0px 20px;
