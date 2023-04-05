@@ -3,13 +3,19 @@ import { ref } from "vue";
 import { RouterLink } from "vue-router";
 import Footer from "../components/Footer.vue";
 
-const optionSelected = ref(false);
+// check if the option is selected
+const buttonClicked = ref(false);
+
+// const classObject = computed(() => ({
+//   "option-correct": buttonClicked && option.isCorrect,
+//   "option-incorrect": buttonClicked && !option.isCorrect,
+// }));
 
 const { question } = defineProps(["question"]);
 const emit = defineEmits(["selectOption"]);
 
 const emitSelectedOption = (isCorrect) => {
-  optionSelected.value = true;
+  buttonClicked.value = true;
   emit("selectOption", isCorrect);
 };
 </script>
@@ -29,8 +35,8 @@ const emitSelectedOption = (isCorrect) => {
         <p
           class="option-label"
           :class="{
-            'option-correct': optionSelected && option.isCorrect,
-            'option-incorrect': optionSelected && !option.isCorrect,
+            'option-correct': buttonClicked && option.isCorrect,
+            'option-incorrect': buttonClicked && !option.isCorrect,
           }"
         >
           {{ option.label }}
@@ -39,8 +45,8 @@ const emitSelectedOption = (isCorrect) => {
         <div
           class="option-value"
           :class="{
-            'option-correct': optionSelected && option.isCorrect,
-            'option-incorrect': optionSelected && !option.isCorrect,
+            'option-correct': buttonClicked && option.isCorrect,
+            'option-incorrect': buttonClicked && !option.isCorrect,
           }"
         >
           <p>{{ option.text }}</p>
@@ -78,7 +84,7 @@ const emitSelectedOption = (isCorrect) => {
 
 /* correct option class */
 .option-correct {
-/* good lime green outline */
+  /* good lime green outline */
   outline: 1px solid #00ff00;
 }
 /* wrong option class */
