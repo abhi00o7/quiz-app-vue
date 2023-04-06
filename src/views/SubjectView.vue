@@ -15,7 +15,10 @@ const showResults = ref(false);
 const totalQuestions = subjectData?.questions?.length;
 
 const questionStatus = computed(
-  () => `${currentQuestionIndex.value}/${totalQuestions}`
+  () => {
+    if (currentQuestionIndex.value === totalQuestions) return "Completed";
+    return `${currentQuestionIndex.value + 1}/${totalQuestions}`
+  }
 );
 const barPercentage = computed(
   () => `${Math.round((currentQuestionIndex.value / totalQuestions) * 100)}%`

@@ -1,10 +1,21 @@
 <script setup>
+import { ref } from "vue";
 import { RouterLink } from "vue-router";
 import Footer from "../components/Footer.vue";
 
+// check if the option is selected
+const buttonClicked = ref(false);
+
+// const classObject = computed(() => ({
+//   "option-correct": buttonClicked && option.isCorrect,
+//   "option-incorrect": buttonClicked && !option.isCorrect,
+// }));
+
 const { question } = defineProps(["question"]);
 const emit = defineEmits(["selectOption"]);
+
 const emitSelectedOption = (isCorrect) => {
+  buttonClicked.value = true;
   emit("selectOption", isCorrect);
 };
 </script>
@@ -21,8 +32,23 @@ const emitSelectedOption = (isCorrect) => {
         @click="emitSelectedOption(option.isCorrect)"
         class="option"
       >
-        <p class="option-label">{{ option.label }}</p>
-        <div class="option-value">
+        <p
+          class="option-label"
+          :class="{
+            'option-correct': buttonClicked && option.isCorrect,
+            'option-incorrect': buttonClicked && !option.isCorrect,
+          }"
+        >
+          {{ option.label }}
+        </p>
+
+        <div
+          class="option-value"
+          :class="{
+            'option-correct': buttonClicked && option.isCorrect,
+            'option-incorrect': buttonClicked && !option.isCorrect,
+          }"
+        >
           <p>{{ option.text }}</p>
         </div>
       </div>
@@ -56,19 +82,30 @@ const emitSelectedOption = (isCorrect) => {
   cursor: pointer;
 }
 
+/* correct option class */
+.option-correct {
+  /* good lime green outline */
+  outline: 1px solid #00ff00;
+}
+/* wrong option class */
+.option-incorrect {
+  outline: 1px dashed #ff0000;
+}
 .option-label {
   overflow: hidden;
-  background-color: #dad2d015;
-  width: 40px;
-  height: 40px;
-  font-size: 1.9rem;
+  background-color: #3d3e3cbf;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.8rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .option-value {
-  background-color: #301a14b0;
+  background-color: #292b29b0;
   width: 100%;
+  height: 3rem;
+  overflow: hidden;
   font-size: 1.8rem;
   padding: 0px 20px;
 }
