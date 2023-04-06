@@ -26,12 +26,20 @@
   --color-background: var(--vt-c-white);
   --color-background-soft: var(--vt-c-white-soft);
   --color-background-mute: var(--vt-c-white-mute);
+  --color-background-green: hsla(132, 46%, 41%, 0.18);
+  --color-background-red: hsla(0, 51%, 38%, 0.18);
+  --color-background-blue: hsla(240, 46%, 32%, 0.18);
+
+  --color-green-effects: hsla(110, 74%, 24%, 0.694);
+  --color-blue-effects: hsla(210, 100%, 50%, 0.18);
+  --color-red-effects: hsla(0, 100%, 50%, 0.325);
 
   --color-border: var(--vt-c-divider-light-2);
   --color-border-hover: var(--vt-c-divider-light-1);
 
   --color-heading: var(--vt-c-text-light-1);
   --color-text: var(--vt-c-text-light-1);
+  --color-text-soft: var(--vt-c-white-soft);
 
   --section-gap: 160px;
 }
