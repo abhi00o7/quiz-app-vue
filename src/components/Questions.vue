@@ -173,4 +173,25 @@ const emitSelectedOption = (isCorrect, selectOption) => {
     width: 50%;
   }
 }
+
+@media (prefers-color-scheme: light) {
+  .option-value {
+    background: rgba(129, 206, 237, 0.459);
+  }
+  .option-label {
+    background: rgb(129, 206, 237);
+  }
+  .option-selected {
+    border: 1px solid #0d00ff71;
+    box-shadow: rgba(214, 3, 179, 0.763) 0px 0px 0px 3px;
+  }
+  .option-correct {
+    /* good lime green outline */
+    border: 3px solid #00ff00;
+  }
+  /* wrong option class */
+  .option-incorrect {
+    border: 1.2px dashed #ff0000;
+  }
+}
 </style>
