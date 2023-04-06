@@ -5,7 +5,7 @@ import Footer from "../components/Footer.vue";
 import { useOptionStore } from "../stores/optionState";
 
 const optionStore = useOptionStore();
-const selectedOption = ref(null);
+const correctAnswer = ref(null);
 
 const { question } = defineProps(["question"]);
 const emit = defineEmits(["selectOption"]);
@@ -16,11 +16,13 @@ const showAnswers = () => {
 
 const nextBtn = () => {
   optionStore.nextQuestion = true;
-  emit("selectOption", selectedOption);
-  selectedOption.value = false;
+  emit("selectOption", correctAnswer);
+  correctAnswer.value = false;
+  optionStore.selectedOption = null;
 };
-const emitSelectedOption = (isCorrect) => {
-  selectedOption.value = isCorrect;
+const emitSelectedOption = (isCorrect, selectOption) => {
+  correctAnswer.value = isCorrect;
+  optionStore.selectedOption = selectOption;
 };
 </script>
 
@@ -33,21 +35,22 @@ const emitSelectedOption = (isCorrect) => {
       <div
         v-for="option in question.options"
         :key="option.id"
-        @click="emitSelectedOption(option.isCorrect)"
-        class="option"
+        @click="emitSelectedOption(option.isCorrect, option.id)"
       >
-        <p class="option-label">
-          {{ option.label }}
-        </p>
         <div
-          class="option-value"
+          class="option"
           :class="{
+            'option-selected': option.id === optionStore.selectedOption,
             'option-correct': optionStore.showAnswer && option.isCorrect,
-            'option-incorrect':
-              optionStore.showAnswer && !option.isCorrect,
+            'option-incorrect': optionStore.showAnswer && !option.isCorrect,
           }"
         >
-          <p>{{ option.text }}</p>
+          <p class="option-label">
+            {{ option.label }}
+          </p>
+          <div class="option-value">
+            <p>{{ option.text }}</p>
+          </div>
         </div>
       </div>
     </div>
@@ -70,7 +73,7 @@ const emitSelectedOption = (isCorrect) => {
 /* Questions */
 .btn-wrapper {
   display: flex;
-  padding:0 10% 30% 10%;
+  padding: 0 10% 30% 10%;
   align-items: center;
   gap: 14%;
   justify-content: center;
@@ -101,7 +104,7 @@ const emitSelectedOption = (isCorrect) => {
 }
 
 .option-selected {
-  outline: 1px dashed #ffdd00;
+    box-shadow: rgba(209, 228, 37, 0.309) 0px 1px 4px, rgba(210, 128, 40, 0.729) 0px 0px 0px 3px;
 }
 .option-label {
   overflow: hidden;
@@ -124,37 +127,35 @@ const emitSelectedOption = (isCorrect) => {
 
 /* NORMAL SCREENS */
 @media only screen and (max-width: 900px) {
-.btn-wrapper {
-  gap: 10%;
+  .btn-wrapper {
+    gap: 10%;
+  }
+  .next-button {
+    width: 50%;
+    margin-top: 0.5rem;
+    min-height: 0%;
+  }
 }
-.next-button {
-  width: 50%;
-  margin-top: 0.5rem;
-  min-height: 0%;
-}
-}
-
 
 /* modern smartphone media query */
 @media only screen and (max-width: 800px) {
-.btn-wrapper {
-  flex-direction: column-reverse;
-}
-.next-button {
-  width: 50%;
-  margin-top: 0.5rem;
-  min-height: 0%;
-}
+  .btn-wrapper {
+    flex-direction: column-reverse;
+  }
+  .next-button {
+    width: 50%;
+    margin-top: 0.5rem;
+    min-height: 0%;
+  }
 }
 
 /* iphone SE media query */
 @media only screen and (max-width: 380px) {
-.btn-wrapper {
-  flex-direction: column-reverse;
+  .btn-wrapper {
+    flex-direction: column-reverse;
+  }
+  .next-button {
+    width: 50%;
+  }
 }
-.next-button {
-  width: 50%;
-}
-}
-
 </style>

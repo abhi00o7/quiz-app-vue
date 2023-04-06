@@ -5,19 +5,18 @@ export const useOptionStore = defineStore("optionSelect", {
   state: () => {
     return {
       showAnswer: false,
-      optionSelection: false,
+      selectedOption: null,
       nextQuestion: false,
     };
   },
   getters: {
     getOption: (state) => {
-      return state.optionSelection;
+      return state.selectedOption;
     },
   },
   actions: {
-    // setOption(option = false, next = false) {
     setOption(option, next, showAnswer) {
-      this.optionSelection = option;
+      this.selectedOption = option;
       this.nextQuestion = next;
       this.showAnswer = showAnswer;
     },
