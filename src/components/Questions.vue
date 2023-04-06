@@ -1,22 +1,26 @@
 <script setup>
-import { ref } from "vue";
+import { ref, computed } from "vue";
 import { RouterLink } from "vue-router";
 import Footer from "../components/Footer.vue";
+import { useOptionStore } from "../stores/optionState";
 
-// check if the option is selected
-const buttonClicked = ref(false);
-
-// const classObject = computed(() => ({
-//   "option-correct": buttonClicked && option.isCorrect,
-//   "option-incorrect": buttonClicked && !option.isCorrect,
-// }));
+const optionStore = useOptionStore();
+const selectedOption = ref(null);
 
 const { question } = defineProps(["question"]);
 const emit = defineEmits(["selectOption"]);
 
+const showAnswers = () => {
+  optionStore.showAnswer = !optionStore.showAnswer;
+};
+
+const nextBtn = () => {
+  optionStore.nextQuestion = true;
+  emit("selectOption", selectedOption);
+  selectedOption.value = false;
+};
 const emitSelectedOption = (isCorrect) => {
-  buttonClicked.value = true;
-  emit("selectOption", isCorrect);
+  selectedOption.value = isCorrect;
 };
 </script>
 
@@ -32,21 +36,15 @@ const emitSelectedOption = (isCorrect) => {
         @click="emitSelectedOption(option.isCorrect)"
         class="option"
       >
-        <p
-          class="option-label"
-          :class="{
-            'option-correct': buttonClicked && option.isCorrect,
-            'option-incorrect': buttonClicked && !option.isCorrect,
-          }"
-        >
+        <p class="option-label">
           {{ option.label }}
         </p>
-
         <div
           class="option-value"
           :class="{
-            'option-correct': buttonClicked && option.isCorrect,
-            'option-incorrect': buttonClicked && !option.isCorrect,
+            'option-correct': optionStore.showAnswer && option.isCorrect,
+            'option-incorrect':
+              optionStore.showAnswer && !option.isCorrect,
           }"
         >
           <p>{{ option.text }}</p>
@@ -54,7 +52,15 @@ const emitSelectedOption = (isCorrect) => {
       </div>
     </div>
     <div class="btn-wrapper">
-      <RouterLink class="next-button" to="/">Take another quiz</RouterLink>
+      <RouterLink class="next-button red" to="/">Take another quiz</RouterLink>
+      <!-- button to show correct answers of the current question -->
+      <button class="next-button green" type="button" @click="showAnswers">
+        {{ !optionStore.showAnswer ? `Show` : `Hide` }} answers
+      </button>
+      <!-- button to go to the next question -->
+      <button class="next-button blue" type="button" @click="nextBtn">
+        Next question
+      </button>
     </div>
   </div>
   <Footer />
@@ -64,7 +70,9 @@ const emitSelectedOption = (isCorrect) => {
 /* Questions */
 .btn-wrapper {
   display: flex;
+  padding:0 10% 30% 10%;
   align-items: center;
+  gap: 14%;
   justify-content: center;
 }
 .questions-container {
@@ -91,6 +99,10 @@ const emitSelectedOption = (isCorrect) => {
 .option-incorrect {
   outline: 1px dashed #ff0000;
 }
+
+.option-selected {
+  outline: 1px dashed #ffdd00;
+}
 .option-label {
   overflow: hidden;
   background-color: #3d3e3cbf;
@@ -109,4 +121,40 @@ const emitSelectedOption = (isCorrect) => {
   font-size: 1.8rem;
   padding: 0px 20px;
 }
+
+/* NORMAL SCREENS */
+@media only screen and (max-width: 900px) {
+.btn-wrapper {
+  gap: 10%;
+}
+.next-button {
+  width: 50%;
+  margin-top: 0.5rem;
+  min-height: 0%;
+}
+}
+
+
+/* modern smartphone media query */
+@media only screen and (max-width: 800px) {
+.btn-wrapper {
+  flex-direction: column-reverse;
+}
+.next-button {
+  width: 50%;
+  margin-top: 0.5rem;
+  min-height: 0%;
+}
+}
+
+/* iphone SE media query */
+@media only screen and (max-width: 380px) {
+.btn-wrapper {
+  flex-direction: column-reverse;
+}
+.next-button {
+  width: 50%;
+}
+}
+
 </style>
