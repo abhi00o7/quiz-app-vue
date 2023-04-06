@@ -18,6 +18,7 @@ const totalQuestions = subjectData?.questions?.length;
 
 const questionStatus = computed(() => {
   optionStore.showAnswer = false;
+  optionStore.disableSelection = false;
   if (currentQuestionIndex.value === totalQuestions) return "Completed";
   return `${currentQuestionIndex.value + 1}/${totalQuestions}`;
 });

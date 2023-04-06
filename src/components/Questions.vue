@@ -7,11 +7,15 @@ import { useOptionStore } from "../stores/optionState";
 const optionStore = useOptionStore();
 const correctAnswer = ref(null);
 
+// show hide the answer button
+const answerBtn = ref(false);
+
 const { question } = defineProps(["question"]);
 const emit = defineEmits(["selectOption"]);
 
 const showAnswers = () => {
   optionStore.showAnswer = !optionStore.showAnswer;
+  optionStore.disableSelection = true;
 };
 
 const nextBtn = () => {
@@ -19,10 +23,14 @@ const nextBtn = () => {
   emit("selectOption", correctAnswer);
   correctAnswer.value = false;
   optionStore.selectedOption = null;
+  answerBtn.value = false;
 };
 const emitSelectedOption = (isCorrect, selectOption) => {
-  correctAnswer.value = isCorrect;
-  optionStore.selectedOption = selectOption;
+  answerBtn.value = true;
+  if (!optionStore.disableSelection) {
+    correctAnswer.value = isCorrect;
+    optionStore.selectedOption = selectOption;
+  }
 };
 </script>
 
@@ -57,7 +65,13 @@ const emitSelectedOption = (isCorrect, selectOption) => {
     <div class="btn-wrapper">
       <RouterLink class="next-button red" to="/">Take another quiz</RouterLink>
       <!-- button to show correct answers of the current question -->
-      <button class="next-button green" type="button" @click="showAnswers">
+      <!-- //@TODO update v-show to disabled and change css accordingly -->
+      <button
+        class="next-button green"
+        type="button"
+        @click="showAnswers"
+        v-show="answerBtn"
+      >
         {{ !optionStore.showAnswer ? `Show` : `Hide` }} answers
       </button>
       <!-- button to go to the next question -->
@@ -104,7 +118,8 @@ const emitSelectedOption = (isCorrect, selectOption) => {
 }
 
 .option-selected {
-    box-shadow: rgba(209, 228, 37, 0.309) 0px 1px 4px, rgba(210, 128, 40, 0.729) 0px 0px 0px 3px;
+  border: 1px solid #19c0f371;
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
 }
 .option-label {
   overflow: hidden;

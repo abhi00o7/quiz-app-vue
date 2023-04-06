@@ -7,6 +7,7 @@ export const useOptionStore = defineStore("optionSelect", {
       showAnswer: false,
       selectedOption: null,
       nextQuestion: false,
+      disableSelection: false,
     };
   },
   getters: {
@@ -15,10 +16,11 @@ export const useOptionStore = defineStore("optionSelect", {
     },
   },
   actions: {
-    setOption(option, next, showAnswer) {
+    setOption(option, next, showAnswer, disableSelection) {
       this.selectedOption = option;
       this.nextQuestion = next;
       this.showAnswer = showAnswer;
+      this.disableSelection = disableSelection;
     },
   },
 });
