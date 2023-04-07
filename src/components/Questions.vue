@@ -13,6 +13,8 @@ const answerBtn = ref(false);
 const { question } = defineProps(["question"]);
 const emit = defineEmits(["selectOption"]);
 
+const removeQuestionNumber = (text) => text.replace(/^[Qq]\s?\d+\s?\.?\s?/, "");
+
 const showAnswers = () => {
   optionStore.showAnswer = !optionStore.showAnswer;
   optionStore.disableSelection = true;
@@ -37,7 +39,7 @@ const emitSelectedOption = (isCorrect, selectOption) => {
 <template>
   <div>
     <div class="questions-container">
-      <h1 class="question">{{ question.text }}</h1>
+      <h1 class="question">{{ removeQuestionNumber(question.text) }}</h1>
     </div>
     <div class="options-container">
       <div
