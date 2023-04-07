@@ -35,6 +35,8 @@
 
 .next-button:disabled {
   pointer-events: none;
+  opacity: 0.5;
+  background-color: var( --color-background-soft);
 }
 
 .next-button:hover {

@@ -64,13 +64,11 @@ const emitSelectedOption = (isCorrect, selectOption) => {
     </div>
     <div class="btn-wrapper">
       <RouterLink class="next-button red" to="/">Take another quiz</RouterLink>
-      <!-- button to show correct answers of the current question -->
-      <!-- //@TODO update v-show to disabled and change css accordingly -->
       <button
         class="next-button green"
         type="button"
         @click="showAnswers"
-        v-show="answerBtn"
+        :disabled="!answerBtn"
       >
         {{ !optionStore.showAnswer ? `Show` : `Hide` }} answers
       </button>
