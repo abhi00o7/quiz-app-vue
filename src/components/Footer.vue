@@ -13,11 +13,14 @@ const year = new Date().getFullYear();
       <span>v{{ version }}</span>
       &copy;<span id="year">{{ year }}</span
       ><span
-        ><a href="https://github.com/abhi00o7/quiz-app-vue/" class="anchor fancy" target="_blank">
+        ><a
+          :href="appInfoStore.projectGithub"
+          class="anchor fancy"
+          target="_blank"
+        >
           batman</a
         >. All rights reserved.</span
       >
-
     </div>
   </footer>
 </template>
