@@ -110,17 +110,62 @@ const emitSelectedOption = (isCorrect, selectOption) => {
 /* correct option class */
 .option-correct {
   /* good lime green outline */
-  outline: 1px solid #00ff00;
+  outline: 0.1rem solid #35bc35;
+  box-shadow: rgba(26, 220, 49, 0.3) 0px 0px 0px 3px;
+
 }
 /* wrong option class */
 .option-incorrect {
   outline: 1px dashed #ff0000;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
 }
 
 .option-selected {
   border: 1px solid #19c0f371;
+  border-radius: 10px;
+  z-index: 0;
+  position: relative;
   box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
 }
+.option-selected:before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  background-size: 400%;
+  top: -2px;
+  left: -2px;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
 .option-label {
   overflow: hidden;
   background-color: #3d3e3cbf;
@@ -183,11 +228,12 @@ const emitSelectedOption = (isCorrect, selectOption) => {
   }
   .option-selected {
     border: 1px solid #0d00ff71;
+    border-radius: 0;
     box-shadow: rgba(214, 3, 179, 0.763) 0px 0px 0px 3px;
   }
   .option-correct {
     /* good lime green outline */
-    border: 3px solid #00ff00;
+    border: 1px solid #00ff00;
   }
   /* wrong option class */
   .option-incorrect {
