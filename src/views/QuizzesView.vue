@@ -26,7 +26,7 @@ const enter = (el) => {
   gsap.to(el, {
     y: 0,
     opacity: 1,
-    duration: 0.5,
+    duration: 0.3,
     delay: el.dataset.index * 0.4,
   });
 };

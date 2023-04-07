@@ -76,7 +76,12 @@ const emitSelectedOption = (isCorrect, selectOption) => {
       </button>
       <!-- button to go to the next question -->
       <button class="next-button blue" type="button" @click="nextBtn">
-        Next question
+        {{
+          typeof optionStore.finalQuestion !== "function" &&
+          optionStore.finalQuestion
+            ? `Finish`
+            : `Next`
+        }}
       </button>
     </div>
   </div>
@@ -112,7 +117,6 @@ const emitSelectedOption = (isCorrect, selectOption) => {
   /* good lime green outline */
   outline: 0.1rem solid #35bc35;
   box-shadow: rgba(26, 220, 49, 0.3) 0px 0px 0px 3px;
-
 }
 /* wrong option class */
 .option-incorrect {

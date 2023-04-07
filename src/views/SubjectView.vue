@@ -2,7 +2,7 @@
 import QuizHeader from "../components/QuizHeader.vue";
 import Questions from "../components/Questions.vue";
 import { useRoute } from "vue-router";
-import { ref, computed } from "vue";
+import { ref, computed, watch } from "vue";
 import quiz from "../data/quizData.json";
 import Results from "../components/Results.vue";
 import { useOptionStore } from "../stores/optionState";
@@ -26,6 +26,10 @@ const barPercentage = computed(
   () => `${Math.round((currentQuestionIndex.value / totalQuestions) * 100)}%`
 );
 
+// makes final question reactive 
+optionStore.finalQuestion = watch(currentQuestionIndex, (newIndex) =>
+  optionStore.update(newIndex === totalQuestions - 1)
+);
 const onOptionSelected = (isCorrect) => {
   if (isCorrect.value) {
     noOfCorrectAnswers.value++;
