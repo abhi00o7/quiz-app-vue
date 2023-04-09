@@ -16,7 +16,7 @@ const navigateToSubject = () => {
 <template>
   <div class="card" @click="navigateToSubject">
     <div>
-      <img :src="subject.img" :alt="`${subject.name} image`" />
+      <img :src="subject.img" :alt="`${subject.name} image`" loading="lazy"/>
       <div class="card-text">
         <h2>{{ subject.name }}</h2>
         <p>{{ subject?.questions?.length }} Questions</p>
