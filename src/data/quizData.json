@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "img": "public/images/math.jpg",
+    "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp4022777.jpg&f=1&nofb=1&ipt=5b8919928e6a8b320f79d5c5f2635c445f702f091b87a3177edfe4b1b738ef29&ipo=images",
     "name": "Math",
     "questions": [
       {
@@ -98,7 +98,7 @@
   },
   {
     "id": 2,
-    "img": "public/images/synonym.jpg",
+    "img": "https://contenthub-static.grammarly.com/blog/wp-content/uploads/2022/08/Synonym.jpg",
     "name": "Synonyms",
     "questions": [
       {
@@ -215,7 +215,7 @@
   },
   {
     "id": 3,
-    "img": "public/images/antonym.jpg",
+    "img": "https://contenthub-static.grammarly.com/blog/wp-content/uploads/2022/08/bmd-3400.png",
     "name": "Antonyms",
     "questions": [
       {
@@ -327,7 +327,7 @@
   },
   {
     "id": 4,
-    "img": "public/images/Spot-the-error.jpg",
+    "img": "https://2.bp.blogspot.com/-pJ2xSe2k_Y0/WxESZ-RiUpI/AAAAAAAADVI/RkY1uXkztDoZn9hTkvdUwQYhsASbRNMMgCLcBGAs/s1600/maxresdefault.jpg",
     "name": "Spotting Errors",
     "questions": [
       {
@@ -574,7 +574,7 @@
   },
   {
     "id": 5,
-    "img": "public/images/filling-in-the-blanks.jpg",
+    "img": "https://static.wixstatic.com/media/e2598f_780fdb38d63441dd9351a0b9202ee1ef~mv2.jpg/v1/fit/w_2500,h_1330,al_c/e2598f_780fdb38d63441dd9351a0b9202ee1ef~mv2.jpg",
     "name": "Filling in The Blanks",
     "questions": [
       {
@@ -681,7 +681,7 @@
   },
   {
     "id": 6,
-    "img": "public/images/SENTENCE-IMPROVEMENT.jpg",
+    "img": "https://www.infipark.com/articles/wp-content/uploads/2017/11/SENTENCE-IMPROVEMENT.png",
     "name": "Sentence Improvement",
     "questions": [
       {
@@ -918,7 +918,7 @@
   },
   {
     "id": 7,
-    "img": "public/images/sequence.jpg",
+    "img": "https://english.olympiadsuccess.com/assets/images/english_square/english_topic_64.jpg",
     "name": "Sequence",
     "questions": [
       {
