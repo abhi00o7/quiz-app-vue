@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "img": "src/assets/images/math.jpg",
+    "img": "public/images/math.jpg",
     "name": "Math",
     "questions": [
       {
@@ -98,7 +98,7 @@
   },
   {
     "id": 2,
-    "img": "src/assets/images/synonym.jpg",
+    "img": "public/images/synonym.jpg",
     "name": "Synonyms",
     "questions": [
       {
@@ -215,7 +215,7 @@
   },
   {
     "id": 3,
-    "img": "src/assets/images/antonym.jpg",
+    "img": "public/images/antonym.jpg",
     "name": "Antonyms",
     "questions": [
       {
@@ -327,7 +327,7 @@
   },
   {
     "id": 4,
-    "img": "src/assets/images/Spot-the-error.jpg",
+    "img": "public/images/Spot-the-error.jpg",
     "name": "Spotting Errors",
     "questions": [
       {
@@ -574,7 +574,7 @@
   },
   {
     "id": 5,
-    "img": "src/assets/images/filling-in-the-blanks.jpg",
+    "img": "public/images/filling-in-the-blanks.jpg",
     "name": "Filling in The Blanks",
     "questions": [
       {
@@ -681,7 +681,7 @@
   },
   {
     "id": 6,
-    "img": "src/assets/images/SENTENCE-IMPROVEMENT.jpg",
+    "img": "public/images/SENTENCE-IMPROVEMENT.jpg",
     "name": "Sentence Improvement",
     "questions": [
       {
@@ -918,7 +918,7 @@
   },
   {
     "id": 7,
-    "img": "src/assets/images/sequence.jpg",
+    "img": "public/images/sequence.jpg",
     "name": "Sequence",
     "questions": [
       {
