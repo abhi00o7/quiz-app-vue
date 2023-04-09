@@ -26,7 +26,7 @@ const barPercentage = computed(
   () => `${Math.round((currentQuestionIndex.value / totalQuestions) * 100)}%`
 );
 
-// makes final question reactive 
+// makes final question reactive
 optionStore.finalQuestion = watch(currentQuestionIndex, (newIndex) =>
   optionStore.update(newIndex === totalQuestions - 1)
 );
@@ -58,6 +58,7 @@ const onOptionSelected = (isCorrect) => {
 
     <div v-else>
       <Results
+        :subjectName="subjectData?.name"
         :totalQuestions="totalQuestions"
         :correctAnswers="noOfCorrectAnswers"
       />
