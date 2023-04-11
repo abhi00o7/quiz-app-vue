@@ -29,7 +29,7 @@ const navigateToSubject = () => {
 /* card */
 
 .card {
-  padding-top: 2.5rem;
+  padding-top: 0.5rem;
   width: 310px;
   overflow: hidden;
   border-radius: 2%;
