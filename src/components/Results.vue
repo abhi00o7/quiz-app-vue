@@ -6,16 +6,15 @@ const { correctAnswers, totalQuestions } = defineProps([
   "totalQuestions",
   "subjectName",
 ]);
+
+const resultPercentage = Math.round((correctAnswers / totalQuestions) * 100);
 </script>
 
 <template>
   <div class="results">
-    <p>Your results...</p>
+    <p>{{ resultPercentage > 59 ? `Amazing` : `Your`  }} results...</p>
     <h1>{{ correctAnswers }}/{{ totalQuestions }}</h1>
-    <h2>
-      you have scored {{ Math.round((correctAnswers / totalQuestions) * 100) }}%
-      in {{ subjectName }}
-    </h2>
+    <h2>You have scored {{ resultPercentage }}% in {{ subjectName }}</h2>
     <RouterLink class="next-button" to="/">Take another quiz</RouterLink>
   </div>
   <Footer />
