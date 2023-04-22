@@ -12,7 +12,7 @@ const resultPercentage = Math.round((correctAnswers / totalQuestions) * 100);
 
 <template>
   <div class="results">
-    <p>{{ resultPercentage > 59 ? `Amazing` : `Your`  }} results...</p>
+    <p>{{ resultPercentage > 59 ? `Amazing` : `Congratulations Your`  }} results...</p>
     <h1>{{ correctAnswers }}/{{ totalQuestions }}</h1>
     <h2>You have scored {{ resultPercentage }}% in {{ subjectName }}</h2>
     <RouterLink class="next-button" to="/">Take another quiz</RouterLink>
