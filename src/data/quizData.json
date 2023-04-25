@@ -2864,5 +2864,312 @@
         ]
       }
     ]
+  },
+  {
+    "id": 14,
+    "img": "https://1.bp.blogspot.com/-r66aDRESkns/YAqAuvltqEI/AAAAAAAAAVM/6GfwDIwE3TgmNBW7EIc2pwWbcsIzZeY-wCLcBGAsYHQ/w1200-h630-p-k-no-nu/1122.jpg",
+    "name": "Economics",
+    "questions":[
+      {
+        "id": 1,
+        "text": "Q1.India has",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Socialistic economy",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Gandhian economy",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Mixed economy",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Free economy",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Q2.The contribution of agriculture to India’s economy is",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Increasing",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Decreasing",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Constant",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "None of these",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Q3.National Development council was set up in",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "1948",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "1950",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "15511",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "1952",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Q4.Rolling plan was designed for the period",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "1978-83",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "1980-85",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "1985-90",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "1974",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Q5.Inflation implies",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Rise in budget deficit",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Rise in money supply",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Rise in general price index",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Ride in prices of consumer goods",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Q6.When was the Reserve bank of India taken over by the Government?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "1945",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "1948",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "1952",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "1956",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Q7.The Rolling Plan concept in national planning was introduced by",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Indira Gandhi",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "The National Front Government",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "The Janata Government",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Rajeev Gandhi",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Q8.The place where bankers meet and settle their mutual claims and accounts is known as",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Treasury",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Clearing house",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Collection centre",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Dumping ground",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Q9.The standard of living in a country is represented by its",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "National income",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Per capita income",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Poverty income",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Unemployment rate",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Q10.The minimum effect of Direct Taxes is on",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Food price",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Consumer goods",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Capital goods",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Income",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
   }
 ]
