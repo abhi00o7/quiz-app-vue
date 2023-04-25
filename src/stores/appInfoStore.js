@@ -5,7 +5,7 @@ export const useAppInfoStore = defineStore("appInfo", {
   state: () => {
     return {
       appName: "Quiz App",
-      appVersion: "0.2.2",
+      appVersion: "0.2.4",
       creator: "Abhishek Kumar",
       creatorEmail: "abhishek.ak.vii@gmail.com",
       creatorGithub: "https://github.com/abhi00o7/",

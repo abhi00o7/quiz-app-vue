@@ -1639,7 +1639,7 @@
   },
   {
     "id": 10,
-    "img": "https://www.proprofs.com/quiz-school/topic_images/p1b4if147v5d0gol1vur26set13.jpg",
+    "img": "https://asvabtutor.com/wp-content/uploads/general-science.jpg",
     "name": "General Science",
     "questions": [
       {
@@ -2869,7 +2869,7 @@
     "id": 14,
     "img": "https://1.bp.blogspot.com/-r66aDRESkns/YAqAuvltqEI/AAAAAAAAAVM/6GfwDIwE3TgmNBW7EIc2pwWbcsIzZeY-wCLcBGAsYHQ/w1200-h630-p-k-no-nu/1122.jpg",
     "name": "Economics",
-    "questions":[
+    "questions": [
       {
         "id": 1,
         "text": "Q1.India has",
@@ -3166,6 +3166,313 @@
             "id": 4,
             "label": "D",
             "text": "Income",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "img": "https://cdn.weqyoua.pro/files/quiz_banner/banner/27563/4081j.png",
+    "name": "General Knowledge",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Q1.The ancient Hindu temple `Preah Vihear` is a source of dispute between",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Nepal and Bhutan",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Bhutan and Bangladesh",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Thailand and Singapore",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Neither `a` nor `b`",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Q2.Who among the following has written the book ‘Too old to be bold’?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Kuldeep Mathur",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Hrishikesh Panda",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Vali Nasr",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "None of these",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Q3.Which among the following is the unit raised to protect the naval assets",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Sagar Rakshak Bal",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Sagar Suraksha Bal",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Sagar Prahari Bal",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Sagar Nigrani Bal",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Q4.Cryogenic Engine is used in",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Boeing aircraft",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "High speed rail engines",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Space shuttle",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Nuclear testing",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Q5.The ‘Abyei region’ is a disputed area between which of the following countries",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Pakistan and Afghanistan",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "China and Japan",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Switzerland and Germany",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Sudan and South Sudan",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Q6.The ‘Courage and Conviction’ is the autobiography of",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Shashi Tharoor",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "VK Singh",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Narendra Modi",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Yashwant Sinah",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Q7.Lionel Messie, who has been chosen for Golden Boot Trophy for the third time is from which country",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Germany",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "France",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Italy",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Argentina",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Q8.Which of the following countries has committed financial and technical assistance to India for the Green Energy Corridor",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Norway",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Australia",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Germany",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Japan",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Q9.Which of the following island is the cause of dispute between China and Japan and controlled by Tokyo",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Senkaku",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "South China Sea",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Falkland",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "None of these",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Q10.Which of the following is the oldest Grand Slam of the world",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Wimbledon",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "French open",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Australian Open",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "US Open",
             "isCorrect": false
           }
         ]
