@@ -1641,7 +1641,7 @@
     "id": 10,
     "img": "https://www.proprofs.com/quiz-school/topic_images/p1b4if147v5d0gol1vur26set13.jpg",
     "name": "General Science",
-    "questions":[
+    "questions": [
       {
         "id": 1,
         "text": "Q1.The main difference between non-living and living is in",
@@ -1948,7 +1948,7 @@
     "id": 11,
     "img": "https://media.istockphoto.com/vectors/open-book-with-history-doodles-and-lettering-vector-id1092170968?k=6&m=1092170968&s=612x612&w=0&h=j_qReeZ6d-7T8fXChMTqHS3EAKc_WICk2XLLfwbonfQ=",
     "name": "History",
-    "questions":[
+    "questions": [
       {
         "id": 1,
         "text": "Q1.The name by which Ashoka is generally referred to in his inscription is",
@@ -2245,6 +2245,313 @@
             "id": 4,
             "label": "D",
             "text": "Merabo code",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "img": "https://myddleschool.org.uk/wp-content/uploads/2021/01/geography-banners-stock-illustrations-1505-geog.jpeg",
+    "name": "Geography",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Q1.Shooting stars are called",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Comet",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Asteroids",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Meteors",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "None of these",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Q2.Which planet has unique type of ring?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Jupiter",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Saturn",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Uranus",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Venus",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Q3.‘Charon’ is the only satellite of",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Pluto",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Jupiter",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Venus",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Neptune",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Q4.The most abundant element found on the earth is",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Nitrogen",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Oxygen",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Silicon",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Hydrogen or iron",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Q5.Earth rotates around its axis pointing towards",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Sun",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Moon",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Pole Star",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "None of these",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Q6.When a ship date line from West to East",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "It gains one day",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "It loses one day",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "It loses half a day",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "It gains half a day",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Q7.Existence of hot desert on Earth is because of",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Lying in trade wind belt",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Flow of hot ocean currents",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Flow of monsoon i tropical region",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "High pressure of these region",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Q8.High Velds are the temperate grassland of",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Africa",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "South Africa",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Europe and Asia",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Australia",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Q9.The latitudes that pass through Kuchchh also pass through",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Odisha",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Arunchal Pradesh",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Mizoram",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Haryana",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Q10.Doldrums is a",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Tropical wind belt",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Tropical wind deflection belt",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Sub-tropocal wind belt",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Tropical no-wind belt",
             "isCorrect": false
           }
         ]
