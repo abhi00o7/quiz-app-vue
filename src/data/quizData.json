@@ -1022,5 +1022,619 @@
         ]
       }
     ]
+  },
+  {
+    "id": 8,
+    "img": "http://iblog.dearbornschools.org/iraniha/wp-content/uploads/sites/436/2013/08/chemistry.jpg",
+    "name": "Chemistry",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Q1.An endothermic reaction is a accompanied by",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Evolution of light and water",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Evolution or absorption of heat",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Evolution of heat only",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Absorption of heat only",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Q2.Dialysis is used for the purification of",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Suspension",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "True solution",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Homogeneous mixture",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Colloidal solution",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Q3.If 2.0 g of the hydrogen reacts with 16.0 g of oxygen to form 18.0 g of water, which of the following laws is applicable",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Law of conservation of mass",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Law of constant composition",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Law of multiple proportions",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Law of reciprocal proportion",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Q4.When a electron moves from a higher orbit to the lower orbit then",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Emission of energy takes place",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "The size of atom increases",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Absorption of energy takes place",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "An electron in an atom moves without emission or absorption",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Q5.Which of the following is best reducing agent",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Na",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Ca",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Sr",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Ba",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Q6.Water act as a",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Arrhenius acid as well as base",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Bronsted- Lowry acid and base",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Lewis base",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "All the above",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Q7.Which of the following metal absorb hydrogen",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Zn",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Pd",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Al",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "K",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Q8.Which of the following component of cement sets at the slowest rate",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Dicalcium silicate",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Tricalcium silicate",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Tricalcium aluminate",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Tetracalcium aluminoferrite",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Q9.Charcoal is activated by the treating with",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Steam is retort",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Super heated water",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Hot air",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "None of these",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Q10.Urea on hydrolysis gives",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Only ammonia",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Only carbon dioxide",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Ammonia and carbon dioxide",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "None of the above",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "img": "http://wagner.wpengine.netdna-cdn.com/hawktalk/files/2015/04/Physics-tutoring.jpg",
+    "name": "Physics",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Q1.Which of the following is a dimensionless quantity?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Strain",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Relative Density",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Frequency",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Angle",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Q2.If the earth moves around the sun in a circular orbit of the radius 150,000,000 km with an angular velocity of about 0.01745 rad/day. Its linear speed in km/s is approximately",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "30,000,000",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "1800",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "720",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "30",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Q3.On increasing the temperature of a substance gradually, one notices the color",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Blue",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Green",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Red",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Yellow",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Q4.The star seems to be higher in the sky than they actually are. This can be explained by",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Atmospheric refraction",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Dispersion of light",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Total internal reflection",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Diffraction of light",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Q5.The value of the intensity of horizontal component of magnetic field is approximately",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "3.4 g",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "0.34 g",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "00.34 g",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "0.034 g",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Q6.Two pure inductors, each of self inductance L, are connected in a parallel but are well separated from each other, then the total inductance is",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "L/3",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "L/2",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "3L",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "L/5",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Q7.The magnetic lines of force due to the bar magnet",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Intersect inside the body of the magnet",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Intersect at neutral points only",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Intersect only at north and south poles",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Cannot intersect at all",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Q8.An electron is moving on a circular path of radius r with the speed of v in a transverse magnetic field B. The e/m for it will be",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "vr/B",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Bvr",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "B/vr",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "v/rB",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Q9.Ratio of energy of orbital electron in 4th orbit and 5th orbit of hydrogen atom is",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "4:5",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "5:4",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "25:16",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "16:25",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Q10.Which of the following radiations carries maximum energy",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Ultraviolet rays",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Gamma rays",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "X-rays",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Infrared rays",
+            "isCorrect": true
+          }
+        ]
+      }
+    ]
   }
 ]
