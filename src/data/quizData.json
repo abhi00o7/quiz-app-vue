@@ -1025,7 +1025,7 @@
   },
   {
     "id": 8,
-    "img": "http://iblog.dearbornschools.org/iraniha/wp-content/uploads/sites/436/2013/08/chemistry.jpg",
+    "img": "http://searchengineland.com/wp-content/seloads/2017/01/test-experiment-science-chemistry-ss-1920.jpg",
     "name": "Chemistry",
     "questions": [
       {
@@ -1332,7 +1332,7 @@
   },
   {
     "id": 9,
-    "img": "http://wagner.wpengine.netdna-cdn.com/hawktalk/files/2015/04/Physics-tutoring.jpg",
+    "img": "https://papyrus.greenville.edu/wp-content/uploads/2013/04/physics.gif.jpeg",
     "name": "Physics",
     "questions": [
       {
@@ -1632,6 +1632,620 @@
             "label": "D",
             "text": "Infrared rays",
             "isCorrect": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "img": "https://www.proprofs.com/quiz-school/topic_images/p1b4if147v5d0gol1vur26set13.jpg",
+    "name": "General Science",
+    "questions":[
+      {
+        "id": 1,
+        "text": "Q1.The main difference between non-living and living is in",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Size",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Movement and growth",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Presence of protoplasm",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "None of these",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Q2.In meiosis, bivalent condition of chromosomes occurs in",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Leptotene",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Zygotene",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Pachytene",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Diploytene",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Q3.The best source of vitamin thiamine is",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Cod liver oil",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Curd",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Egg",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Wheat bread",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Q4.RBCs can burst if they are kept in",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Super saturated salt solution",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Isotonic salt solution",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Hypertonic salt solution",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Hypotonic salt solution",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Q5.Emergency gland is a common name of",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Adrenal",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Pancreas",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Liver",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Kidney",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Q6.Which one is the functional unit of kidney",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Nephron",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Nephritis",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Neuron",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Loop of henle",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Q7.AIDS is a disease of",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Bacteria",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Virus",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Fungus",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Hormone",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Q8.Tube feet is developed for locomotion in",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Cockroach",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Cuttle fish",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Cat fish",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Star fish",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Q9.Clinging roots occur in",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Orchid",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Trapa",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Podostemon",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Pandanus",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Q10.In which part of plants transpiration takes place",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Steam",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Roots",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Leaves",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Both (a) and (c)",
+            "isCorrect": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "img": "https://media.istockphoto.com/vectors/open-book-with-history-doodles-and-lettering-vector-id1092170968?k=6&m=1092170968&s=612x612&w=0&h=j_qReeZ6d-7T8fXChMTqHS3EAKc_WICk2XLLfwbonfQ=",
+    "name": "History",
+    "questions":[
+      {
+        "id": 1,
+        "text": "Q1.The name by which Ashoka is generally referred to in his inscription is",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Priyadarshi",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Dharmadeva",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Chakravati",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Dharmakirti",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Q2.The first to establish trade contact with the Roman empire were",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Indo Greeks",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Khushanas",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Tamils",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Shakas",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Q3.The battle at Waihind in 1008-90 was fought between",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Mahmud of Ghazni and Anandapala",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Mahmud of Ghazni and Jayapala",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Mohammad Ghori and Prithviraj",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Mohammad Gohri and Jaichandra",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Q4.who wrote Tughlaqnamah",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Raskhan",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Amir Khusrau",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Isami",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Malik Mohammad Jayasi",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Q5.The coin rupia was first issued by",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Sher Shah",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Ala-ud-din Khilji",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Akhbar",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Mohammad-bin-Tughlaq",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Q6.In which of the years was the English made the medium of instruction in India?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "1813",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "1833",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "1835",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "1844",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Q7.In which of the following ‘White Mutiny’ by the European soldiers, was staged during the period of",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Mayo",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Dalhousie",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Canning",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Ripon",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Q8.Which of the following is the author of the book ‘The Social Contract’?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Voltaire",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Rousseau",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Tolstoy",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Martin Luther",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Q9.In which of the following countries, Industrial Revolution started at first",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "America",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "England",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "France",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Russia",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Q10.The Civil Code of 1804 is known as",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "French code",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Napolean code",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Paris code",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Merabo code",
+            "isCorrect": false
           }
         ]
       }
