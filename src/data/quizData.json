@@ -2557,5 +2557,312 @@
         ]
       }
     ]
+  },
+  {
+    "id": 13,
+    "img": "http://www.isvarmurti.com/blog/wp-content/uploads/2017/04/politics.png",
+    "name": "Polity",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Q1.Members of Council of Ministers are collectively responsible to",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Lok Sabha",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Rajya Sabha",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Election Commission",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "President",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Q2.France commission is appointed under Article",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "270",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "280",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "281",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "282",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Q3.The number of writs that can be prayed for and issued by the Supreme Court and High Court is",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "3",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "4",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "5",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "6",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Q4.By whom are the committees of Parliament appointed",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "President",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Prime Minister",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Chairman of Rajya Sabha/ Speaker of Lok Sabha",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Minister of Parliamentary",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Q5.How many times was the financial emergency imposed?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Once",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Twice",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Many times",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Not a single time",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Q6.The president gives his resignation to the",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Vice President",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Prime Minister",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Chief Justice",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Chairman of Lok Sabha",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Q7.The first woman Governor of a state of a free India was",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Sarojini Naidu",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Sucheta Kripalani",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Indira Gandhi",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Vijaya Laxmi Pandit",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Q8.Which of the following states has the largest representation in the Lok Sabha",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Bihar",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Uttar Pradesh",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Madhya Pradesh",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Odisha",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Q9.The finance commission derives its authority from the",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Parliament",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "President",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Constitution",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Supreme court",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Q10.Right to Information in India is a",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Fundamental Right",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Legal Right",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Both a and b",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Neither a nor b",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
   }
 ]
